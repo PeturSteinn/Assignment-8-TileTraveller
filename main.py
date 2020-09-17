@@ -112,7 +112,6 @@ while run:
     direction = input("Direction: ")
     if isValidMove(x, y, direction):
         # Færum x og y ef þetta tekst
-        print(isValidMove(x,y,direction))
         x, y = move(x, y, direction)
 
     else:
